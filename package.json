@@ -1,0 +1,14 @@
+{
+  "name": "gun-tube",
+  "version": "1.0.0",
+  "description": "making youtube clone with nodejs",
+  "main": "index.js",
+  "author": "devGeonil",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
