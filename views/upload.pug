@@ -1,0 +1,9 @@
+extends layouts/main
+block content
+  .form-contatiner
+    form(action=`/videos${routes.upload}`, method="post", enctype="multipart/form-data")
+      label(for="title") Video File
+      input(type="file", id="videoFile", name="videoFile", required=true, accept="video/*")
+      input(type="text", placeholder="Title", name="title", required=true)
+      textarea(name="description", placeholder="description", required=true)
+      input(type="submit", vlaue="Upload Video")
